@@ -22,10 +22,13 @@ The **AIDssistant** is the bridge between the ILGs and the existing myResponder 
 5. If the user is alright, no further action is taken. However, if the user responds that they are unwell, AIDssistant will send the converted message via the myResponder application to the nearest CFRs. If the user does not respond within a stipulated amount of time, help will also be sent as this could mean that they are unconscious.
 
 ## Long description
+[View our detailed solution here!](https://github.com/ruilingk/JWERK-DONTFallForUs_SCDFXIBM/blob/master/DESCRIPTION.md)
 
 ## Getting started
 
 ## Technology used to build our solution
+- [IBM Watson Assistant](https://www.ibm.com/cloud/watson-assistant/)
+- [Node-RED](https://nodered.org/) - Speech-to-Text and Text-to-Speech functions
 
 ## References
 Smith, M. L. (2018, October 30). Commentary: The dangers of a fall for the elderly. Retrieved from https://www.channelnewsasia.com/news/commentary/the-dangers-of-a-fall-for-the-elderly-10843932
