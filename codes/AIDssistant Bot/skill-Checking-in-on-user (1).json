@@ -1,0 +1,1617 @@
+{
+  "intents": [
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "You around?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "medicine",
+      "examples": [
+        {
+          "text": "panadol"
+        },
+        {
+          "text": "antibiotics"
+        },
+        {
+          "text": "medicine"
+        },
+        {
+          "text": "meds"
+        },
+        {
+          "text": "meds time"
+        }
+      ],
+      "description": "reminder for medicine"
+    },
+    {
+      "intent": "Utilities_Stop_Service",
+      "examples": [
+        {
+          "text": "I would like to discontinue the services."
+        },
+        {
+          "text": "We will not be for a few months. can you cut off energy during the holidays?"
+        },
+        {
+          "text": "We no longer wish to be connected to the grid"
+        },
+        {
+          "text": "Turn off my service."
+        },
+        {
+          "text": "Turn off my electricity supply."
+        },
+        {
+          "text": "Take down the utility"
+        },
+        {
+          "text": "Remove us from the power grid"
+        },
+        {
+          "text": "I'm not interested in your service"
+        },
+        {
+          "text": "I'm leaving this solar panel provider for another one."
+        },
+        {
+          "text": "I'm done with this service"
+        },
+        {
+          "text": "I'm at the end of my tether with your company."
+        },
+        {
+          "text": "I'd like to cancel the service for my gas."
+        },
+        {
+          "text": "Can you disconnect me from the service?"
+        },
+        {
+          "text": "Can you suspend my electric supply for a while as I am going on an extended vacation?"
+        },
+        {
+          "text": "Could you please turn off my lights?"
+        },
+        {
+          "text": "Disconnect form the electric power"
+        },
+        {
+          "text": "Discontinue gas."
+        },
+        {
+          "text": "How do I shut off the gas and electricity?"
+        },
+        {
+          "text": "I am finished with the solar panel service."
+        },
+        {
+          "text": "I don't need a power supply any longer."
+        }
+      ],
+      "description": "Stop a service."
+    },
+    {
+      "intent": "feeling_okay",
+      "examples": [
+        {
+          "text": "I am feeling ok."
+        },
+        {
+          "text": "I am feeling fine."
+        },
+        {
+          "text": "Ok."
+        },
+        {
+          "text": "Okay."
+        },
+        {
+          "text": "Fine."
+        },
+        {
+          "text": "Good."
+        },
+        {
+          "text": "I am feeling okay."
+        }
+      ],
+      "description": "user is feeling okay, no help is needed"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Utilities_View_Usage",
+      "examples": [
+        {
+          "text": "Is there a statement for used power?"
+        },
+        {
+          "text": "Where do I find the relevant info concerning my power consumption?"
+        },
+        {
+          "text": "Where can I see my utilities usage?"
+        },
+        {
+          "text": "What was my electric usage this past month?"
+        },
+        {
+          "text": "What is my spent electricity amount for previous month?"
+        },
+        {
+          "text": "What is my meter usage?"
+        },
+        {
+          "text": "What are my energy stats?"
+        },
+        {
+          "text": "May I see the electric meter readings"
+        },
+        {
+          "text": "Information on utility usage for a specific time"
+        },
+        {
+          "text": "I'd like to view my home's power use"
+        },
+        {
+          "text": "How much energy have I used in the past couple weeks?"
+        },
+        {
+          "text": "How much electricity have I been consuming of late?"
+        },
+        {
+          "text": "How much electricity did I utilize in the past week or so?"
+        },
+        {
+          "text": "How much electricity I am using?"
+        },
+        {
+          "text": "How do I get energy use reports?"
+        },
+        {
+          "text": "How do I determine my electricity consumption?"
+        },
+        {
+          "text": "Did my usage increase"
+        },
+        {
+          "text": "Did my usage go up"
+        },
+        {
+          "text": "Can you tell the quantity of energy use?"
+        },
+        {
+          "text": "Can you show me power consumption?"
+        }
+      ],
+      "description": "Request details on energy use."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Another thing"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "symptoms",
+      "examples": [
+        {
+          "text": "very cold and clammy"
+        },
+        {
+          "text": "heart beating very fast"
+        },
+        {
+          "text": "feel like vomitting"
+        },
+        {
+          "text": "puking"
+        },
+        {
+          "text": "dizzy"
+        },
+        {
+          "text": "headache"
+        },
+        {
+          "text": "breathless"
+        }
+      ],
+      "description": "symptoms of user to be sent to CFRs"
+    },
+    {
+      "intent": "Utilities_File_A_Loss_Claim",
+      "examples": [
+        {
+          "text": "Where can I submit gas heater coverage complaints?"
+        },
+        {
+          "text": "File the insurance claim"
+        },
+        {
+          "text": "By a hailstorm our panels were affected. insurance covers them"
+        },
+        {
+          "text": "File tumbler claim"
+        },
+        {
+          "text": "Help me fill a claim on my fuel heater insurance"
+        },
+        {
+          "text": "Help us to fix the smoke heater problem claim"
+        },
+        {
+          "text": "How do I file a claim for hail damaged solar panels?"
+        },
+        {
+          "text": "How do I finish an insurance claim?"
+        },
+        {
+          "text": "How to enter a fuel heater coverage claim?"
+        },
+        {
+          "text": "I want to start a claim on my gas heater"
+        },
+        {
+          "text": "In a hail storm our solar panels got messed up"
+        },
+        {
+          "text": "Begin an insurance claim"
+        },
+        {
+          "text": "My solar panels got destroyed up in a hail storm and they are insured"
+        },
+        {
+          "text": "My fridge is broken after the electrical storm"
+        },
+        {
+          "text": "My solar panels were destroyed due to severe weather."
+        },
+        {
+          "text": "The hail storm destroyed our solar panels. they are insured"
+        },
+        {
+          "text": "We need to make a claim on our gas heater insurance"
+        },
+        {
+          "text": "We want to submit smoke heater insurance claim"
+        },
+        {
+          "text": "We want to submit the claim for the gas heater insurance"
+        },
+        {
+          "text": "What is the insurance claim process?"
+        }
+      ],
+      "description": "File a claim for a loss."
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Wait"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "feeling_unwell",
+      "examples": [
+        {
+          "text": "help me"
+        },
+        {
+          "text": "i am in pain"
+        },
+        {
+          "text": "i need help"
+        },
+        {
+          "text": "I am not feeling well."
+        },
+        {
+          "text": "Not good."
+        },
+        {
+          "text": "I am not good."
+        },
+        {
+          "text": "I feel unwell."
+        },
+        {
+          "text": "Unwell."
+        },
+        {
+          "text": "Not feeling good."
+        },
+        {
+          "text": "pain"
+        }
+      ],
+      "description": "user is feeling unwell, help might be needed"
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "Sure thing!"
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "You're misunderstanding me"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "No I'm fine thanks"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "What do you mean by that?"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "I didn't understand that properly"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Never mind"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "Utilities_Storm_Status",
+      "examples": [
+        {
+          "text": "When is the hurricane after effects going to recede?"
+        },
+        {
+          "text": "Current storm info"
+        },
+        {
+          "text": "Do you know the expected duration of the flood?"
+        },
+        {
+          "text": "Does the storm affect us?"
+        },
+        {
+          "text": "Does the weather affect me?"
+        },
+        {
+          "text": "How long does the flood last?"
+        },
+        {
+          "text": "How's the weather going to be?"
+        },
+        {
+          "text": "I would like to know if the tornado is coming through my neighborhood."
+        },
+        {
+          "text": "It's possible be flooding there?"
+        },
+        {
+          "text": "Thunder near us"
+        },
+        {
+          "text": "To what extent is going to take before this end?"
+        },
+        {
+          "text": "What is the forecast in my area like?"
+        },
+        {
+          "text": "What is the projected path of the tornado?"
+        },
+        {
+          "text": "When will the tides change?"
+        },
+        {
+          "text": "Where will the tornado contact be?"
+        },
+        {
+          "text": "Where will tornado hit?"
+        },
+        {
+          "text": "Will the area be flooded for long?"
+        },
+        {
+          "text": "Will the disaster affect this parish?"
+        },
+        {
+          "text": "Will the storm travel through my city?"
+        },
+        {
+          "text": "Will the weather hit here?"
+        }
+      ],
+      "description": "Request current storm information."
+    },
+    {
+      "intent": "Utilities_Report_Usage",
+      "examples": [
+        {
+          "text": "Can I report my kwh data online?"
+        },
+        {
+          "text": "Report reading from my meter"
+        },
+        {
+          "text": "Report data on usage"
+        },
+        {
+          "text": "Record my electrical usage"
+        },
+        {
+          "text": "Record meter readings"
+        },
+        {
+          "text": "I would like to report my usage"
+        },
+        {
+          "text": "I can tell you my electric meter reading"
+        },
+        {
+          "text": "How do I file information on electricity usage?"
+        },
+        {
+          "text": "Enter in my meter reads"
+        },
+        {
+          "text": "Enter in meter data"
+        },
+        {
+          "text": "Can I submit my meter numbers to you?"
+        },
+        {
+          "text": "Can I submit my meter data?"
+        },
+        {
+          "text": "Can I report what my meter says?"
+        },
+        {
+          "text": "Can I report the number on my meter for this month?"
+        },
+        {
+          "text": "Submit energy consumption"
+        },
+        {
+          "text": "Submit electrical meter reading"
+        },
+        {
+          "text": "Submit electric usage"
+        },
+        {
+          "text": "Report usage registered on power meter"
+        },
+        {
+          "text": "Report usage numbers"
+        },
+        {
+          "text": "Report the electricity meter reading"
+        }
+      ],
+      "description": "Report usage registered on a meter."
+    },
+    {
+      "intent": "no_response",
+      "examples": [
+        {
+          "text": "null"
+        }
+      ],
+      "description": "help is needed for this user"
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I don t know what you want"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "Utilities_Find_A_Generator",
+      "examples": [
+        {
+          "text": "Where there is a generator that is not far away?"
+        },
+        {
+          "text": "Find a power generator close to my location"
+        },
+        {
+          "text": "Finding a secondary power supply"
+        },
+        {
+          "text": "How can I find the nearest generator?"
+        },
+        {
+          "text": "How can I locate a generator?"
+        },
+        {
+          "text": "How do I get a generator in case of power loss?"
+        },
+        {
+          "text": "I have to get a generator."
+        },
+        {
+          "text": "I need a generator in my neighborhood"
+        },
+        {
+          "text": "I need backup power"
+        },
+        {
+          "text": "I need supplemental power."
+        },
+        {
+          "text": "I want to buy a generator"
+        },
+        {
+          "text": "What stores in my area sell generators?"
+        },
+        {
+          "text": "What's the closest emergency power source?"
+        },
+        {
+          "text": "What's the closest power station to me?"
+        },
+        {
+          "text": "Where are the generators near me?"
+        },
+        {
+          "text": "Where are the generators to be found?"
+        },
+        {
+          "text": "Where can I buy a generator?"
+        },
+        {
+          "text": "Where can I find a back up power supply?"
+        },
+        {
+          "text": "Where is a power generation system?"
+        },
+        {
+          "text": "Who supplies generators?"
+        }
+      ],
+      "description": "Locate a generator."
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "We will need to begin again"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "We need a do-over"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "Utilities_Report_Outage",
+      "examples": [
+        {
+          "text": "Everything indicates that the gas is escaping"
+        },
+        {
+          "text": "A light on my road does not appear to be working"
+        },
+        {
+          "text": "Accidentally left the range on and I am away from the dwelling for the day"
+        },
+        {
+          "text": "Can I got you help for a street light?"
+        },
+        {
+          "text": "Can a service person check on a fallen power line?"
+        },
+        {
+          "text": "How do I report a dangling cable?"
+        },
+        {
+          "text": "I am smelling gas throughout my house I need assistance"
+        },
+        {
+          "text": "I believe one of the electricity cables has been taken out."
+        },
+        {
+          "text": "I don't have power in my neighborhood"
+        },
+        {
+          "text": "I need anybody to help me to fix the hole impregnate gas in my house"
+        },
+        {
+          "text": "I need help. I guess there is gas over the apartment. can someone come over to take care of it?"
+        },
+        {
+          "text": "I think our street lamp's bulb needs to be changed"
+        },
+        {
+          "text": "My electricity cable has become unusable is broken"
+        },
+        {
+          "text": "My street's cable line is down. when will it be repaired?"
+        },
+        {
+          "text": "My tv just turned off and there's no power"
+        },
+        {
+          "text": "One of the lamp posts blew out"
+        },
+        {
+          "text": "One of the lights on our street isn't working properly"
+        },
+        {
+          "text": "Please schedule a crew to fix the utility pole"
+        },
+        {
+          "text": "The electricity might be out around me"
+        },
+        {
+          "text": "What on earth is happening with the electical supply, nothing is functioning?"
+        }
+      ],
+      "description": "Report a disruption of a utility service."
+    },
+    {
+      "intent": "Utilities_Start_Service",
+      "examples": [
+        {
+          "text": "Would you please fix electricity connection?"
+        },
+        {
+          "text": "Who do I need to contact in order to get a gas supply to my location?"
+        },
+        {
+          "text": "What is the process for starting this service?"
+        },
+        {
+          "text": "We completed the required building inspection so please connect the gas."
+        },
+        {
+          "text": "The house is backed up please check if the gas is working and begin the supply of gas to the house"
+        },
+        {
+          "text": "Start utilities."
+        },
+        {
+          "text": "I'd like to get electricity in my house"
+        },
+        {
+          "text": "I wish to start an electrical supply what are the steps to achieving this?"
+        },
+        {
+          "text": "I want a reconnection of my gas service"
+        },
+        {
+          "text": "I need information on requesting service."
+        },
+        {
+          "text": "How to reactivate my gas service?"
+        },
+        {
+          "text": "How to get my power supply connected?"
+        },
+        {
+          "text": "How to I get my electricity supply hooked up?"
+        },
+        {
+          "text": "How do I turn the lights on in my new home?"
+        },
+        {
+          "text": "How do I arrange for my service to begin?"
+        },
+        {
+          "text": "How can I turn on the gas?"
+        },
+        {
+          "text": "How can I start electricity?"
+        },
+        {
+          "text": "How I get power for the first time?"
+        },
+        {
+          "text": "Explain how to connect the electric service"
+        },
+        {
+          "text": "Add the electricity to home"
+        }
+      ],
+      "description": "Start a service."
+    },
+    {
+      "intent": "Utilities_Outage_Status",
+      "examples": [
+        {
+          "text": "Is the power out in my area?"
+        },
+        {
+          "text": "Where is the service interrupted?"
+        },
+        {
+          "text": "Where can I search areas for outages?"
+        },
+        {
+          "text": "When will this outage be over?"
+        },
+        {
+          "text": "When will the fuel system be back on?"
+        },
+        {
+          "text": "What is time frame for lights back on?"
+        },
+        {
+          "text": "What happened to the electricity?"
+        },
+        {
+          "text": "What areas are affected by the black out?"
+        },
+        {
+          "text": "Power has just returned at my house"
+        },
+        {
+          "text": "It's thundering out, will I lose power?"
+        },
+        {
+          "text": "Is there an status update on the outage in fountain valley?"
+        },
+        {
+          "text": "Is there an electric failure?"
+        },
+        {
+          "text": "Is there a power outage in my city?"
+        },
+        {
+          "text": "Is the power out locally?"
+        },
+        {
+          "text": "Which locations don't have any power?"
+        },
+        {
+          "text": "I need you to tell me how long it takes to fix the blackout?"
+        },
+        {
+          "text": "Has the company estimated how long this will take?"
+        },
+        {
+          "text": "Do you have a timeframe for service resume?"
+        },
+        {
+          "text": "Can you tell me when the service is going to return?"
+        },
+        {
+          "text": "Are you able to repair my blackout asap?"
+        }
+      ],
+      "description": "Request current information on a disruption of service."
+    },
+    {
+      "intent": "Utilities_Construction",
+      "examples": [
+        {
+          "text": "Can I receive calls while I work on the construction?"
+        },
+        {
+          "text": "Can I relocate the fridge socket?"
+        },
+        {
+          "text": "Can solar panels be installed when redoing the roof?"
+        },
+        {
+          "text": "Can you disconnect my gas supply as I'm rebuilding my house?"
+        },
+        {
+          "text": "How can I have solar panels placed during a roofing project?"
+        },
+        {
+          "text": "I have got some home improving work booked soon"
+        },
+        {
+          "text": "I have to dig by the house"
+        },
+        {
+          "text": "I need to keep my service doing my home construction."
+        },
+        {
+          "text": "I want to tell you that I am starting construction"
+        },
+        {
+          "text": "I'm redoing our roof and would like to add solar panels"
+        },
+        {
+          "text": "I'm remodeling my house"
+        },
+        {
+          "text": "Is calling during construction allowed?"
+        },
+        {
+          "text": "Tell me about the law I need to follow when remodeling"
+        },
+        {
+          "text": "We are doing a house improvement project."
+        },
+        {
+          "text": "We're making the house bigger"
+        },
+        {
+          "text": "What are the regulations regarding knocking down this wall?"
+        },
+        {
+          "text": "What are ways to rewire a room?"
+        },
+        {
+          "text": "What should I consider doing first before renovating and creating more space with a room?"
+        },
+        {
+          "text": "What things do I need to take into account before doing a remodeling?"
+        },
+        {
+          "text": "Will you help us wire up the new rooms we added?"
+        }
+      ],
+      "description": "Inquire about the impact that a construction project has on a utility service."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "done",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "okay",
+          "synonyms": [
+            "fine",
+            "okay",
+            "im done",
+            "done"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://www.scdf.gov.sg/home/community-volunteers/mobile-applications",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I will send your symptoms to nearby CFRs. Please wait."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1592045755489",
+      "conditions": "#symptoms || trure",
+      "dialog_node": "node_4_1592045797637"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good day to, $username"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1592113088722",
+      "conditions": "$username",
+      "dialog_node": "response_10_1592113610414",
+      "previous_sibling": "response_4_1592113586110"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, <? input.text ?>! It's lovely to meet you. How can I help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1592113088722",
+      "context": {
+        "username": "\t<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1592113323809",
+      "previous_sibling": "response_10_1592113610414"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am a virtual assistant that is designed to AIDssist. What should I call you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1592113088722",
+      "dialog_node": "response_4_1592113586110"
+    },
+    {
+      "type": "standard",
+      "title": "No_response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sending alerts to nearby CFRs."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#no_response",
+      "dialog_node": "node_6_1592046317687",
+      "previous_sibling": "node_7_1592045755489"
+    },
+    {
+      "type": "standard",
+      "title": "End",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! I will check in on you later."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@done",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1592046881581",
+      "previous_sibling": "node_6_1592046317687"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_About_You",
+      "dialog_node": "node_10_1592113088722",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Feeling okay",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's great! I will check in on you later."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#feeling_okay",
+      "digress_in": "does_not_return",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1592046705658",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Feeling_unwell",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Could you please say out your symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "symptomps": "\t<? input.text ?>"
+      },
+      "conditions": "#feeling_unwell",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1592045755489",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "title": "irrelevant",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, could you please repeat."
+              },
+              {
+                "text": "Sorry I didnt catch that. Please repeat yourself"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1592072904687",
+      "previous_sibling": "node_5_1592046881581"
+    },
+    {
+      "type": "standard",
+      "title": "Taking_of_medicine",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You would need to eat 2 tablets of Paracil now."
+              },
+              {
+                "text": "You would need to inhale your inhaler now."
+              },
+              {
+                "text": "You would need to have 1 tablespoon of cough medicine."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#medicine",
+      "dialog_node": "node_8_1592046705658",
+      "previous_sibling": "node_10_1592113088722"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              },
+              {
+                "text": "Hi! How are you feeling today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Checking in on user",
+  "language": "en",
+  "description": ""
+}
