@@ -3,7 +3,7 @@ We are a group of JC friends studying in different faculties in NUS hoping to co
 
 ## Content page
 1. [Short description](#short-description)
-2. [Pitch video](#link-to-pitch-video)
+2. [Pitch video](#pitch-video)
 3. [Architecture of proposed solution](#architecture-of-proposed-solution)
 4. [Long description](#long-description)
 5. [Getting started](#getting-started)
@@ -20,7 +20,7 @@ Our proposed idea consists of 2 interdependent parts, targeting elderly aged 65 
 - **ILGs** will be installed at key locations in the user’s house, such as bathrooms, where the elderly are more prone to falling. The gates track the duration the user spent in that particular location with minimal infringement of privacy (only duration information is collected and this information is reset once the user leaves the location). Each set of gates will be individually tagged with preset and adjustable timings so that AIDssistant would know when to check on the user. 
 - The **AIDssistant** is the bridge between the ILGs and the existing myResponder application currently used by CFRs. It is voice activated, and converts the user’s response to a text alert using Watson Speech to Text. AIDssistant uses the ILG’s information to assess if help should be rendered, proactively check in on the user, and remind the user to take their medicine if needed.
 
-## Link to pitch video
+## Pitch video
 [![Pitch video](http://img.youtube.com/vi/Naj5kN9731c/0.jpg)](http://www.youtube.com/watch?v=Naj5kN9731c)
 
 ## Architecture of proposed solution
@@ -35,6 +35,15 @@ Our proposed idea consists of 2 interdependent parts, targeting elderly aged 65 
 [View our detailed solution here!](https://github.com/ruilingk/JWERK-DONTFallForUs_SCDFXIBM/blob/master/DESCRIPTION.md)
 
 ## Getting started
+**AID-kit:** This application should be used to set-up both the ILGs and AIDssistant.
+Users, or social workers helping the user do the set up, should then sync each pair of ILGs to the app, indicate respective location IDs and set the respective time limit which the user normally spends in that location. 
+For example:
+- ILGs pair 1: ID = “bathroom”; TIME LIMIT = 60 min, 
+- ILGs pair 2: ID = “kitchen”; TIME LIMIT = 120 min.
+
+**ILGs:** Infrared sensors, both source and detector should be placed directly opposite each other at each entry that users wish to monitor their movements. ILGs should be placed around hip level to prevent unintentional disruption of the rays _(i.e. should the user accidentally step over the ray)_.
+
+**AIDssistant:** Should be placed in a central area that allows users to communicate with it by voice, from any point in the house, as well as be in good proximity to the ILGs to ensure data can be transmitted. When syncing with AID-kit, AIDssistant would be able to receive data of the maximum time limit the user spends in each room, as well as the location of each ILG. Here is a [link](https://node-red-ftsgj.mybluemix.net/ui/#!/0?socketid=r0C8fN8cV1An5RgmAAAI) to try out our AIDssistant!
 
 ## Technology used to build our solution
 - [IBM Watson Assistant](https://www.ibm.com/cloud/watson-assistant/)
