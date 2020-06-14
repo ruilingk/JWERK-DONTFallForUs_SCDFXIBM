@@ -21,6 +21,7 @@ Our proposed idea consists of 2 interdependent parts, targeting elderly aged 65 
 - The **AIDssistant** is the bridge between the ILGs and the existing myResponder application currently used by CFRs. It is voice activated, and converts the user’s response to a text alert using Watson Speech to Text. AIDssistant uses the ILG’s information to assess if help should be rendered, proactively check in on the user, and remind the user to take their medicine if needed.
 
 ## Link to pitch video
+[![Pitch video](http://img.youtube.com/vi/Naj5kN9731c/0.jpg)](http://www.youtube.com/watch?v=Naj5kN9731c)
 
 ## Architecture of proposed solution
 ![Architecture of Solution](https://user-images.githubusercontent.com/65802567/84584645-6f2fe480-ae39-11ea-9e27-1b85f9393626.png)
