@@ -1,6 +1,15 @@
 # JWERK-DONTFallForUs_SCDFXIBM
 We are a group of JC friends studying in different faculties in NUS hoping to contribute back to the society through hackathons. Our team name, **JWERK**, consists of the first letter of our names, Jody, Wen Ling, Emily, Rui Ling and Kirby. 
 
+## Content page
+1. [Short description](#short-description)
+2. [Pitch video](#link-to-pitch-video)
+3. [Architecture of proposed solution](#architecture-of-proposed-solution)
+4. [Long description](#long-description)
+5. [Getting started](#getting-started)
+6. [Technology used to build our solution](#technology-used-to-build-our-solution)
+7. [References](#references)
+
 ## Short description
 ### What is the problem?
 Among Singaporeans aged 65 and older, falling is the number one cause of accidental death (Smith, 2018). One in three persons aged 65 years and above fall each year (Low, n.d.). A soon “super-aged” Singapore (Population.sg, n.d.) sees more elderly are living alone than ever. This results in a lack of attention and provision of crucial, emergency aid if they were to fall or have medical emergencies. Once a person has fallen, he or she is twice as likely to fall again (CDC, 2017). However, the ‘golden hour’ to treatment is often lost among these elderly as they live alone and nobody is aware of their emergency situation (Tadiello, 2018). 
